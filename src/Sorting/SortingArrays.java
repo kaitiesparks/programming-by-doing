@@ -26,10 +26,13 @@ public class SortingArrays {
 			}
 		}
 
-		// Display the values again, now (hopefully) sorted.
 		System.out.print("after : ");
+		
 		for ( int i=0; i<arr.length; i++ )
+			{
 			System.out.print( arr[i] + " " );
+			}
+		
 		System.out.println();
 	}
 }
